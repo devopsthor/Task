@@ -1,6 +1,6 @@
 FROM tomcate:10
 
-LABEL maintainer="hippo"
+LABEL maintainer=hippo
 
 ADD **/*.war /usr/local/tomcat/webapps/
 
